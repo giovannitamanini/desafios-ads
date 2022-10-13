@@ -1,8 +1,8 @@
 //criptografando_mensagem.cpp
 //11 de outubro de 2022
 //Autor: Giovanni de Aguirre Tamanini
-/*Projeto feito para realizaÁ„o do Desafio 1 proposto na disciplina Matem·tica e EstatÌstica do curso
-An·lise e Desenvolvimento de Sistemas do SENAI-SC*/
+/*Projeto feito para realiza√ß√£o do Desafio 1 proposto na disciplina Matem√°tica e Estat√≠stica do curso
+An√°lise e Desenvolvimento de Sistemas do SENAI-SC*/
 //Professor: Rafael Bomaro Ferreira
 
 #include <iostream>
@@ -13,15 +13,16 @@ int main()
 {
     cout << "Mensagem a ser enviada: ESTUDAR PARA TRANSFORMAR O MUNDO!\n" << endl;
 
-    /* Abaixo È possÌvel modificar a mensagem, desde que seja respeitado o limite de caracteres (34) pois 
-    a mensagem deve ser guardada em uma matriz 2x17. A relaÁ„o caracteres/inteiros est· definido no header 
+    /* Abaixo √© poss√≠vel modificar a mensagem, desde que seja respeitado o limite de caracteres (34) pois 
+    a mensagem deve ser guardada em uma matriz 2x17. A rela√ß√£o caracteres/inteiros est√° definido no header 
     file cripto.h */
     int mensagem[2][17] = { {E, S, T, U, D, A, R, espaco, P, A, R, A, espaco, T, R, A, N},
                             {S, F, O, R, M, A, R, espaco, O, espaco, M, U, N, D, O, exclamacao, espaco} };
     mostra2x17(mensagem);
+    cout << endl;
 
-    /*Chamada da funÁ„o codifica que utiliza como par‚metros de entrada a matriz COD e a matriz mensagem
-    declarada acima. A implementaÁ„o da funÁ„o est· no header file cripto.h*/
+    /*Chamada da fun√ß√£o codifica que utiliza como par√¢metros de entrada a matriz COD e a matriz mensagem
+    declarada acima. A implementa√ß√£o da fun√ß√£o est√° no header file cripto.h*/
     codifica(cod, mensagem);
 
     cout << "Copiar matriz criptografada no console e enviar para o receptor." << endl;

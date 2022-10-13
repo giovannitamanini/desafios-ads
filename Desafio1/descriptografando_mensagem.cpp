@@ -1,8 +1,8 @@
 //descriptografando_mensagem.cpp
 //11 de outubro de 2022
 //Autor: Giovanni de Aguirre Tamanini
-/*Projeto feito para realizaÁ„o do Desafio 1 proposto na disciplina Matem·tica e EstatÌstica do curso
-An·lise e Desenvolvimento de Sistemas do SENAI-SC*/
+/*Projeto feito para realiza√ß√£o do Desafio 1 proposto na disciplina Matem√°tica e Estat√≠stica do curso
+An√°lise e Desenvolvimento de Sistemas do SENAI-SC*/
 //Professor: Rafael Bomaro Ferreira
 
 #include <iostream>
@@ -19,8 +19,8 @@ int main()
     mostra2x17(codificada);
     cout << endl;
 
-    /*Chamada da funÁ„o decodifica que utiliza como par‚metros de entrada a matriz DECOD e a matriz 
-    codificada declarada acima. A implementaÁ„o da funÁ„o est· no header file cripto.h*/
+    /*Chamada da fun√ß√£o decodifica que utiliza como par√¢metros de entrada a matriz DECOD e a matriz 
+    codificada declarada acima. A implementa√ß√£o da fun√ß√£o est√° no header file cripto.h*/
     decodifica(decod, codificada);
 
     return 0;
