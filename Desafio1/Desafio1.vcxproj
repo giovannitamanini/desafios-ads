@@ -130,7 +130,7 @@
     <ClInclude Include="cripto.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="descriptografando_mensagem.cpp" />
+    <ClCompile Include="criptografando_mensagem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
