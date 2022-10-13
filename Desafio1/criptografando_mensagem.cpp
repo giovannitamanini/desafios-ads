@@ -3,7 +3,6 @@
 #include "cripto.h"
 using namespace std;
 
-
 int main()
 {
     cout << "Mensagem a ser enviada: ESTUDAR PARA TRANSFORMAR O MUNDO!\n" << endl;
