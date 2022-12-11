@@ -1,12 +1,18 @@
-#Criem listas e variáveis para testar suas condicionais
+'''Alunos: Giovanni de Aguirre Tamanini
+           Leonardo de Freitas Mafra
+Disciplina: Algoritmos e Programação
+Professor: Paulo Roberto Pasqualotti
+UNISENAI'''
+#-------------------------------------------------------------------------------------------------------------------
+#Criação de listas e variáveis para testar as condicionais
 margemA = ['pai', 'mae', 'filho1', 'filho2', 'filha1', 'filha2', 'guarda', 'prisioneira']
 margemB = []
 jangada = []
 qtPA = len(margemA)
 qtPB = len(margemB)
 qtPJ = len(jangada)
-
-# condicional para avaliar situação na jangada. Está pronta!!!
+#-------------------------------------------------------------------------------------------------------------------
+# Condicional para avaliar situação na jangada. Está pronta!!!
 if (qtPJ == 1 or qtPJ == 2) and (
     'pai' in jangada or 'mae' in jangada or 'guarda' in jangada) and not (
         'prisioneira' in jangada and 'guarda' not in jangada) and not (
@@ -15,9 +21,8 @@ if (qtPJ == 1 or qtPJ == 2) and (
     print('Jangada OK')
 else:
     print('Problema na jangada')
-
-
-# condicional para avaliar situação da margem A (quanto aos personagens na margem A)
+#-------------------------------------------------------------------------------------------------------------------
+# Condicional para avaliar situação da margem A (quanto aos personagens na margem A)
 if(qtPA <= 8) and (
     (qtPA == 0 or 'pai' in margemA or 'mae' in margemA or 
     'filho1' in margemA or 'filho2' in margemA or 
@@ -29,8 +34,8 @@ if(qtPA <= 8) and (
     print('Margem A OK')
 else:
     print('Problema na Margem A')
-
-# condicional para avaliar situação da margem B (quanto aos personagens na margem B)
+#-------------------------------------------------------------------------------------------------------------------
+# Condicional para avaliar situação da margem B (quanto aos personagens na margem B)
 if(qtPB >= 0 and qtPB <= 8) and (
     (qtPB == 0 or 'pai' in margemB or 'mae' in margemB or 
     'filho1' in margemB or 'filho2' in margemB or 
@@ -42,7 +47,10 @@ if(qtPB >= 0 and qtPB <= 8) and (
     print('Margem B OK')
 else:
     print('Problema na Margem B')
-
-# condicional para avaliar situação ao chegar na margem B (quanto ao fim do jogo)
-if('pai' in margemB and 'mae' in margemB and 'filho1' in margemB and 'filho2' in margemB and 'filha1' in margemB and 'filha2' in margemB and 'guarda' in margemB and 'prisioneira' in margemB) :
+#-------------------------------------------------------------------------------------------------------------------
+# Condicional para avaliar situação ao chegar na margem B (quanto ao fim do jogo)
+if('pai' in margemB and 'mae' in margemB and 
+'filho1' in margemB and 'filho2' in margemB and 'filha1' in margemB and 'filha2' in margemB and 
+'guarda' in margemB and 'prisioneira' in margemB) :
     print("Fim de jogo")
+#-------------------------------------------------------------------------------------------------------------------
