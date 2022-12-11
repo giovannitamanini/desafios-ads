@@ -1,3 +1,7 @@
+#Autor da solução mostrada abaixo: Mahdi Hassanzadeh
+#Fonte da solução original: https://github.com/mahdihassanzade/River-Crossing-Puzzle
+#Tradução para fins didáticos: Giovanni de Aguirre Tamanini
+
 import copy
 import time
 from os import system, name
