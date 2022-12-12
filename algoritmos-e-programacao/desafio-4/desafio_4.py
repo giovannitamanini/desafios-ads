@@ -1,3 +1,10 @@
+"""Instituição: Faculdade SENAI
+   Unidade Curricular: Algoritmos e Programação
+   Professor: Paulo Roberto Pasqualotti
+   Aluno: Giovanni de Aguirre Tamanini
+          Leonardo de Freitas Mafra
+   Data: 11/12/2022"""
+
 import random
 
 paradas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]

@@ -2,6 +2,7 @@
    Unidade Curricular: Algoritmos e Programação
    Professor: Paulo Roberto Pasqualotti
    Aluno: Giovanni de Aguirre Tamanini
+          Leonardo de Freitas Mafra
    Data: 11/12/2022"""
 
 # Importação dos módulos necessários
