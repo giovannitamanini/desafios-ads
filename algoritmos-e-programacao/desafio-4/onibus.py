@@ -1,9 +1,20 @@
+<<<<<<< HEAD:algoritmos-e-programacao/desafio-4/onibus.py
 ﻿"""Instituição: Faculdade SENAI
    Unidade Curricular: Algoritmos e Programação
    Professor: Paulo Roberto Pasqualotti
    Alunos: Giovanni de Aguirre Tamanini
            Leonardo de Freitas Mafra
    Data: 11/12/2022"""
+=======
+"""Instituição: Faculdade SENAI
+   Unidade Curricular: Algoritmos e Programação
+   Professor: Paulo Roberto Pasqualotti
+   Aluno: Giovanni de Aguirre Tamanini
+          Leonardo de Freitas Mafra
+   Data: 11/12/2022"""
+
+import random
+>>>>>>> 26b372d641197ea58a48cab1dfc1301b27370169:algoritmos-e-programacao/desafio-4/desafio_4.py
 
 import random
 
